@@ -1,8 +1,8 @@
 namespace Sudoku
 {
-    public partial class frmMain : Form
+    public partial class form1 : Form
     {
-        public frmMain()
+        public form1()
         {
             InitializeComponent();
         }
