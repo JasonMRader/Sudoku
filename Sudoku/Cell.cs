@@ -10,6 +10,10 @@ namespace Sudoku
     {
         public TextBox txtBx {  get; set; }
         public int Number = 0;
+        public Row Row { get; set; }
+        public Column Column { get; set; }
+        public Box Box { get; set; }
+        public Cell() { }   
         public Cell(TextBox txt)
         {
             txtBx = txt;

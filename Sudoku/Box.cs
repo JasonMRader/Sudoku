@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Sudoku
 {
-    internal class Box
+    public class Box
     {
+        public int[] Numbers = new int[9];
+        public Cell[] cells = new Cell[9];
     }
 }

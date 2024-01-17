@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sudoku
 {
-    internal class Column
+    public class Column : Line
     {
     }
 }
