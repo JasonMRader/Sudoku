@@ -6,12 +6,12 @@ namespace Sudoku
         {
             InitializeComponent();
         }
-
+        Game game = new Game();
         private void form1_Load(object sender, EventArgs e)
         {
             Cell cell = new Cell(txt1_1);
             cell.txtBx.Text = cell.Number.ToString();
-            Game game = new Game();
+            game = new Game();
 
 
         }

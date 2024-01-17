@@ -14,6 +14,7 @@ namespace Sudoku
         {
             CreateRows();
             CreateColumns();
+            CreateCells();
         }
         private void CreateRows()
         {
