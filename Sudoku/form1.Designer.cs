@@ -61,59 +61,59 @@
             txt7_1 = new TextBox();
             panel7 = new Panel();
             textBox46 = new TextBox();
-            textBox47 = new TextBox();
-            textBox48 = new TextBox();
+            txt5_9 = new TextBox();
+            txt4_9 = new TextBox();
             textBox49 = new TextBox();
-            textBox50 = new TextBox();
-            textBox51 = new TextBox();
+            txt5_8 = new TextBox();
+            txt4_8 = new TextBox();
             textBox52 = new TextBox();
-            textBox53 = new TextBox();
-            textBox54 = new TextBox();
+            txt5_7 = new TextBox();
+            txt4_7 = new TextBox();
             panel6 = new Panel();
             textBox37 = new TextBox();
-            textBox38 = new TextBox();
-            textBox39 = new TextBox();
+            txt5_6 = new TextBox();
+            txt4_6 = new TextBox();
             textBox40 = new TextBox();
-            textBox41 = new TextBox();
-            textBox42 = new TextBox();
+            txt5_5 = new TextBox();
+            txt4_5 = new TextBox();
             textBox43 = new TextBox();
-            textBox44 = new TextBox();
-            textBox45 = new TextBox();
+            txt5_4 = new TextBox();
+            txt4_4 = new TextBox();
             panel5 = new Panel();
             textBox28 = new TextBox();
-            textBox29 = new TextBox();
-            textBox30 = new TextBox();
-            textBox31 = new TextBox();
-            textBox32 = new TextBox();
-            textBox33 = new TextBox();
+            txt5_3 = new TextBox();
+            txt4_3 = new TextBox();
+            txt6_2 = new TextBox();
+            txt5_2 = new TextBox();
+            txt4_2 = new TextBox();
             txt6_1 = new TextBox();
             txt5_1 = new TextBox();
             txt4_1 = new TextBox();
             panel4 = new Panel();
-            textBox19 = new TextBox();
+            txt3_9 = new TextBox();
             txt2_9 = new TextBox();
             txt1_9 = new TextBox();
-            textBox22 = new TextBox();
+            txt3_8 = new TextBox();
             txt2_8 = new TextBox();
             txt1_8 = new TextBox();
-            textBox25 = new TextBox();
+            txt3_7 = new TextBox();
             txt2_7 = new TextBox();
             txt1_7 = new TextBox();
             panel3 = new Panel();
-            textBox10 = new TextBox();
+            txt3_6 = new TextBox();
             txt2_6 = new TextBox();
             txt1_6 = new TextBox();
-            textBox13 = new TextBox();
+            txt3_5 = new TextBox();
             txt2_5 = new TextBox();
             txt1_5 = new TextBox();
-            textBox16 = new TextBox();
+            txt3_4 = new TextBox();
             txt2_4 = new TextBox();
             txt1_4 = new TextBox();
             panel2 = new Panel();
-            textBox9 = new TextBox();
+            txt3_3 = new TextBox();
             txt2_3 = new TextBox();
             txt1_3 = new TextBox();
-            textBox8 = new TextBox();
+            txt3_2 = new TextBox();
             txt2_2 = new TextBox();
             txt1_2 = new TextBox();
             txt3_1 = new TextBox();
@@ -476,14 +476,14 @@
             // 
             panel7.BackColor = Color.FromArgb(224, 224, 224);
             panel7.Controls.Add(textBox46);
-            panel7.Controls.Add(textBox47);
-            panel7.Controls.Add(textBox48);
+            panel7.Controls.Add(txt5_9);
+            panel7.Controls.Add(txt4_9);
             panel7.Controls.Add(textBox49);
-            panel7.Controls.Add(textBox50);
-            panel7.Controls.Add(textBox51);
+            panel7.Controls.Add(txt5_8);
+            panel7.Controls.Add(txt4_8);
             panel7.Controls.Add(textBox52);
-            panel7.Controls.Add(textBox53);
-            panel7.Controls.Add(textBox54);
+            panel7.Controls.Add(txt5_7);
+            panel7.Controls.Add(txt4_7);
             panel7.Location = new Point(579, 291);
             panel7.Margin = new Padding(1, 1, 2, 2);
             panel7.Name = "panel7";
@@ -500,25 +500,25 @@
             textBox46.TabIndex = 0;
             textBox46.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox47
+            // txt5_9
             // 
-            textBox47.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox47.Location = new Point(191, 96);
-            textBox47.Margin = new Padding(1);
-            textBox47.Name = "textBox47";
-            textBox47.Size = new Size(93, 93);
-            textBox47.TabIndex = 0;
-            textBox47.TextAlign = HorizontalAlignment.Center;
+            txt5_9.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt5_9.Location = new Point(191, 96);
+            txt5_9.Margin = new Padding(1);
+            txt5_9.Name = "txt5_9";
+            txt5_9.Size = new Size(93, 93);
+            txt5_9.TabIndex = 0;
+            txt5_9.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox48
+            // txt4_9
             // 
-            textBox48.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox48.Location = new Point(191, 1);
-            textBox48.Margin = new Padding(1);
-            textBox48.Name = "textBox48";
-            textBox48.Size = new Size(93, 93);
-            textBox48.TabIndex = 0;
-            textBox48.TextAlign = HorizontalAlignment.Center;
+            txt4_9.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt4_9.Location = new Point(191, 1);
+            txt4_9.Margin = new Padding(1);
+            txt4_9.Name = "txt4_9";
+            txt4_9.Size = new Size(93, 93);
+            txt4_9.TabIndex = 0;
+            txt4_9.TextAlign = HorizontalAlignment.Center;
             // 
             // textBox49
             // 
@@ -530,25 +530,25 @@
             textBox49.TabIndex = 0;
             textBox49.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox50
+            // txt5_8
             // 
-            textBox50.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox50.Location = new Point(96, 96);
-            textBox50.Margin = new Padding(1);
-            textBox50.Name = "textBox50";
-            textBox50.Size = new Size(93, 93);
-            textBox50.TabIndex = 0;
-            textBox50.TextAlign = HorizontalAlignment.Center;
+            txt5_8.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt5_8.Location = new Point(96, 96);
+            txt5_8.Margin = new Padding(1);
+            txt5_8.Name = "txt5_8";
+            txt5_8.Size = new Size(93, 93);
+            txt5_8.TabIndex = 0;
+            txt5_8.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox51
+            // txt4_8
             // 
-            textBox51.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox51.Location = new Point(96, 1);
-            textBox51.Margin = new Padding(1);
-            textBox51.Name = "textBox51";
-            textBox51.Size = new Size(93, 93);
-            textBox51.TabIndex = 0;
-            textBox51.TextAlign = HorizontalAlignment.Center;
+            txt4_8.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt4_8.Location = new Point(96, 1);
+            txt4_8.Margin = new Padding(1);
+            txt4_8.Name = "txt4_8";
+            txt4_8.Size = new Size(93, 93);
+            txt4_8.TabIndex = 0;
+            txt4_8.TextAlign = HorizontalAlignment.Center;
             // 
             // textBox52
             // 
@@ -560,38 +560,38 @@
             textBox52.TabIndex = 0;
             textBox52.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox53
+            // txt5_7
             // 
-            textBox53.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox53.Location = new Point(1, 96);
-            textBox53.Margin = new Padding(1);
-            textBox53.Name = "textBox53";
-            textBox53.Size = new Size(93, 93);
-            textBox53.TabIndex = 0;
-            textBox53.TextAlign = HorizontalAlignment.Center;
+            txt5_7.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt5_7.Location = new Point(1, 96);
+            txt5_7.Margin = new Padding(1);
+            txt5_7.Name = "txt5_7";
+            txt5_7.Size = new Size(93, 93);
+            txt5_7.TabIndex = 0;
+            txt5_7.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox54
+            // txt4_7
             // 
-            textBox54.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox54.Location = new Point(1, 1);
-            textBox54.Margin = new Padding(1);
-            textBox54.Name = "textBox54";
-            textBox54.Size = new Size(93, 93);
-            textBox54.TabIndex = 0;
-            textBox54.TextAlign = HorizontalAlignment.Center;
+            txt4_7.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt4_7.Location = new Point(1, 1);
+            txt4_7.Margin = new Padding(1);
+            txt4_7.Name = "txt4_7";
+            txt4_7.Size = new Size(93, 93);
+            txt4_7.TabIndex = 0;
+            txt4_7.TextAlign = HorizontalAlignment.Center;
             // 
             // panel6
             // 
             panel6.BackColor = Color.FromArgb(224, 224, 224);
             panel6.Controls.Add(textBox37);
-            panel6.Controls.Add(textBox38);
-            panel6.Controls.Add(textBox39);
+            panel6.Controls.Add(txt5_6);
+            panel6.Controls.Add(txt4_6);
             panel6.Controls.Add(textBox40);
-            panel6.Controls.Add(textBox41);
-            panel6.Controls.Add(textBox42);
+            panel6.Controls.Add(txt5_5);
+            panel6.Controls.Add(txt4_5);
             panel6.Controls.Add(textBox43);
-            panel6.Controls.Add(textBox44);
-            panel6.Controls.Add(textBox45);
+            panel6.Controls.Add(txt5_4);
+            panel6.Controls.Add(txt4_4);
             panel6.Location = new Point(291, 290);
             panel6.Margin = new Padding(1, 1, 2, 2);
             panel6.Name = "panel6";
@@ -608,25 +608,25 @@
             textBox37.TabIndex = 0;
             textBox37.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox38
+            // txt5_6
             // 
-            textBox38.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox38.Location = new Point(191, 96);
-            textBox38.Margin = new Padding(1);
-            textBox38.Name = "textBox38";
-            textBox38.Size = new Size(93, 93);
-            textBox38.TabIndex = 0;
-            textBox38.TextAlign = HorizontalAlignment.Center;
+            txt5_6.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt5_6.Location = new Point(191, 96);
+            txt5_6.Margin = new Padding(1);
+            txt5_6.Name = "txt5_6";
+            txt5_6.Size = new Size(93, 93);
+            txt5_6.TabIndex = 0;
+            txt5_6.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox39
+            // txt4_6
             // 
-            textBox39.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox39.Location = new Point(191, 1);
-            textBox39.Margin = new Padding(1);
-            textBox39.Name = "textBox39";
-            textBox39.Size = new Size(93, 93);
-            textBox39.TabIndex = 0;
-            textBox39.TextAlign = HorizontalAlignment.Center;
+            txt4_6.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt4_6.Location = new Point(191, 1);
+            txt4_6.Margin = new Padding(1);
+            txt4_6.Name = "txt4_6";
+            txt4_6.Size = new Size(93, 93);
+            txt4_6.TabIndex = 0;
+            txt4_6.TextAlign = HorizontalAlignment.Center;
             // 
             // textBox40
             // 
@@ -638,25 +638,25 @@
             textBox40.TabIndex = 0;
             textBox40.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox41
+            // txt5_5
             // 
-            textBox41.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox41.Location = new Point(96, 96);
-            textBox41.Margin = new Padding(1);
-            textBox41.Name = "textBox41";
-            textBox41.Size = new Size(93, 93);
-            textBox41.TabIndex = 0;
-            textBox41.TextAlign = HorizontalAlignment.Center;
+            txt5_5.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt5_5.Location = new Point(96, 96);
+            txt5_5.Margin = new Padding(1);
+            txt5_5.Name = "txt5_5";
+            txt5_5.Size = new Size(93, 93);
+            txt5_5.TabIndex = 0;
+            txt5_5.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox42
+            // txt4_5
             // 
-            textBox42.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox42.Location = new Point(96, 1);
-            textBox42.Margin = new Padding(1);
-            textBox42.Name = "textBox42";
-            textBox42.Size = new Size(93, 93);
-            textBox42.TabIndex = 0;
-            textBox42.TextAlign = HorizontalAlignment.Center;
+            txt4_5.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt4_5.Location = new Point(96, 1);
+            txt4_5.Margin = new Padding(1);
+            txt4_5.Name = "txt4_5";
+            txt4_5.Size = new Size(93, 93);
+            txt4_5.TabIndex = 0;
+            txt4_5.TextAlign = HorizontalAlignment.Center;
             // 
             // textBox43
             // 
@@ -668,35 +668,35 @@
             textBox43.TabIndex = 0;
             textBox43.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox44
+            // txt5_4
             // 
-            textBox44.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox44.Location = new Point(1, 96);
-            textBox44.Margin = new Padding(1);
-            textBox44.Name = "textBox44";
-            textBox44.Size = new Size(93, 93);
-            textBox44.TabIndex = 0;
-            textBox44.TextAlign = HorizontalAlignment.Center;
+            txt5_4.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt5_4.Location = new Point(1, 96);
+            txt5_4.Margin = new Padding(1);
+            txt5_4.Name = "txt5_4";
+            txt5_4.Size = new Size(93, 93);
+            txt5_4.TabIndex = 0;
+            txt5_4.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox45
+            // txt4_4
             // 
-            textBox45.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox45.Location = new Point(1, 1);
-            textBox45.Margin = new Padding(1);
-            textBox45.Name = "textBox45";
-            textBox45.Size = new Size(93, 93);
-            textBox45.TabIndex = 0;
-            textBox45.TextAlign = HorizontalAlignment.Center;
+            txt4_4.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt4_4.Location = new Point(1, 1);
+            txt4_4.Margin = new Padding(1);
+            txt4_4.Name = "txt4_4";
+            txt4_4.Size = new Size(93, 93);
+            txt4_4.TabIndex = 0;
+            txt4_4.TextAlign = HorizontalAlignment.Center;
             // 
             // panel5
             // 
             panel5.BackColor = Color.FromArgb(224, 224, 224);
             panel5.Controls.Add(textBox28);
-            panel5.Controls.Add(textBox29);
-            panel5.Controls.Add(textBox30);
-            panel5.Controls.Add(textBox31);
-            panel5.Controls.Add(textBox32);
-            panel5.Controls.Add(textBox33);
+            panel5.Controls.Add(txt5_3);
+            panel5.Controls.Add(txt4_3);
+            panel5.Controls.Add(txt6_2);
+            panel5.Controls.Add(txt5_2);
+            panel5.Controls.Add(txt4_2);
             panel5.Controls.Add(txt6_1);
             panel5.Controls.Add(txt5_1);
             panel5.Controls.Add(txt4_1);
@@ -716,55 +716,55 @@
             textBox28.TabIndex = 0;
             textBox28.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox29
+            // txt5_3
             // 
-            textBox29.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox29.Location = new Point(191, 96);
-            textBox29.Margin = new Padding(1);
-            textBox29.Name = "textBox29";
-            textBox29.Size = new Size(93, 93);
-            textBox29.TabIndex = 0;
-            textBox29.TextAlign = HorizontalAlignment.Center;
+            txt5_3.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt5_3.Location = new Point(191, 96);
+            txt5_3.Margin = new Padding(1);
+            txt5_3.Name = "txt5_3";
+            txt5_3.Size = new Size(93, 93);
+            txt5_3.TabIndex = 0;
+            txt5_3.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox30
+            // txt4_3
             // 
-            textBox30.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox30.Location = new Point(191, 1);
-            textBox30.Margin = new Padding(1);
-            textBox30.Name = "textBox30";
-            textBox30.Size = new Size(93, 93);
-            textBox30.TabIndex = 0;
-            textBox30.TextAlign = HorizontalAlignment.Center;
+            txt4_3.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt4_3.Location = new Point(191, 1);
+            txt4_3.Margin = new Padding(1);
+            txt4_3.Name = "txt4_3";
+            txt4_3.Size = new Size(93, 93);
+            txt4_3.TabIndex = 0;
+            txt4_3.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox31
+            // txt6_2
             // 
-            textBox31.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox31.Location = new Point(96, 191);
-            textBox31.Margin = new Padding(1);
-            textBox31.Name = "textBox31";
-            textBox31.Size = new Size(93, 93);
-            textBox31.TabIndex = 0;
-            textBox31.TextAlign = HorizontalAlignment.Center;
+            txt6_2.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt6_2.Location = new Point(96, 191);
+            txt6_2.Margin = new Padding(1);
+            txt6_2.Name = "txt6_2";
+            txt6_2.Size = new Size(93, 93);
+            txt6_2.TabIndex = 0;
+            txt6_2.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox32
+            // txt5_2
             // 
-            textBox32.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox32.Location = new Point(96, 96);
-            textBox32.Margin = new Padding(1);
-            textBox32.Name = "textBox32";
-            textBox32.Size = new Size(93, 93);
-            textBox32.TabIndex = 0;
-            textBox32.TextAlign = HorizontalAlignment.Center;
+            txt5_2.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt5_2.Location = new Point(96, 96);
+            txt5_2.Margin = new Padding(1);
+            txt5_2.Name = "txt5_2";
+            txt5_2.Size = new Size(93, 93);
+            txt5_2.TabIndex = 0;
+            txt5_2.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox33
+            // txt4_2
             // 
-            textBox33.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox33.Location = new Point(96, 1);
-            textBox33.Margin = new Padding(1);
-            textBox33.Name = "textBox33";
-            textBox33.Size = new Size(93, 93);
-            textBox33.TabIndex = 0;
-            textBox33.TextAlign = HorizontalAlignment.Center;
+            txt4_2.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt4_2.Location = new Point(96, 1);
+            txt4_2.Margin = new Padding(1);
+            txt4_2.Name = "txt4_2";
+            txt4_2.Size = new Size(93, 93);
+            txt4_2.TabIndex = 0;
+            txt4_2.TextAlign = HorizontalAlignment.Center;
             // 
             // txt6_1
             // 
@@ -799,13 +799,13 @@
             // panel4
             // 
             panel4.BackColor = Color.FromArgb(224, 224, 224);
-            panel4.Controls.Add(textBox19);
+            panel4.Controls.Add(txt3_9);
             panel4.Controls.Add(txt2_9);
             panel4.Controls.Add(txt1_9);
-            panel4.Controls.Add(textBox22);
+            panel4.Controls.Add(txt3_8);
             panel4.Controls.Add(txt2_8);
             panel4.Controls.Add(txt1_8);
-            panel4.Controls.Add(textBox25);
+            panel4.Controls.Add(txt3_7);
             panel4.Controls.Add(txt2_7);
             panel4.Controls.Add(txt1_7);
             panel4.Location = new Point(579, 3);
@@ -814,15 +814,15 @@
             panel4.Size = new Size(285, 285);
             panel4.TabIndex = 0;
             // 
-            // textBox19
+            // txt3_9
             // 
-            textBox19.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox19.Location = new Point(191, 191);
-            textBox19.Margin = new Padding(1);
-            textBox19.Name = "textBox19";
-            textBox19.Size = new Size(93, 93);
-            textBox19.TabIndex = 0;
-            textBox19.TextAlign = HorizontalAlignment.Center;
+            txt3_9.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt3_9.Location = new Point(191, 191);
+            txt3_9.Margin = new Padding(1);
+            txt3_9.Name = "txt3_9";
+            txt3_9.Size = new Size(93, 93);
+            txt3_9.TabIndex = 0;
+            txt3_9.TextAlign = HorizontalAlignment.Center;
             // 
             // txt2_9
             // 
@@ -844,15 +844,15 @@
             txt1_9.TabIndex = 0;
             txt1_9.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox22
+            // txt3_8
             // 
-            textBox22.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox22.Location = new Point(96, 191);
-            textBox22.Margin = new Padding(1);
-            textBox22.Name = "textBox22";
-            textBox22.Size = new Size(93, 93);
-            textBox22.TabIndex = 0;
-            textBox22.TextAlign = HorizontalAlignment.Center;
+            txt3_8.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt3_8.Location = new Point(96, 191);
+            txt3_8.Margin = new Padding(1);
+            txt3_8.Name = "txt3_8";
+            txt3_8.Size = new Size(93, 93);
+            txt3_8.TabIndex = 0;
+            txt3_8.TextAlign = HorizontalAlignment.Center;
             // 
             // txt2_8
             // 
@@ -874,15 +874,15 @@
             txt1_8.TabIndex = 0;
             txt1_8.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox25
+            // txt3_7
             // 
-            textBox25.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox25.Location = new Point(1, 191);
-            textBox25.Margin = new Padding(1);
-            textBox25.Name = "textBox25";
-            textBox25.Size = new Size(93, 93);
-            textBox25.TabIndex = 0;
-            textBox25.TextAlign = HorizontalAlignment.Center;
+            txt3_7.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt3_7.Location = new Point(1, 191);
+            txt3_7.Margin = new Padding(1);
+            txt3_7.Name = "txt3_7";
+            txt3_7.Size = new Size(93, 93);
+            txt3_7.TabIndex = 0;
+            txt3_7.TextAlign = HorizontalAlignment.Center;
             // 
             // txt2_7
             // 
@@ -907,13 +907,13 @@
             // panel3
             // 
             panel3.BackColor = Color.FromArgb(224, 224, 224);
-            panel3.Controls.Add(textBox10);
+            panel3.Controls.Add(txt3_6);
             panel3.Controls.Add(txt2_6);
             panel3.Controls.Add(txt1_6);
-            panel3.Controls.Add(textBox13);
+            panel3.Controls.Add(txt3_5);
             panel3.Controls.Add(txt2_5);
             panel3.Controls.Add(txt1_5);
-            panel3.Controls.Add(textBox16);
+            panel3.Controls.Add(txt3_4);
             panel3.Controls.Add(txt2_4);
             panel3.Controls.Add(txt1_4);
             panel3.Location = new Point(291, 3);
@@ -922,15 +922,15 @@
             panel3.Size = new Size(285, 285);
             panel3.TabIndex = 0;
             // 
-            // textBox10
+            // txt3_6
             // 
-            textBox10.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox10.Location = new Point(191, 191);
-            textBox10.Margin = new Padding(1);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(93, 93);
-            textBox10.TabIndex = 0;
-            textBox10.TextAlign = HorizontalAlignment.Center;
+            txt3_6.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt3_6.Location = new Point(191, 191);
+            txt3_6.Margin = new Padding(1);
+            txt3_6.Name = "txt3_6";
+            txt3_6.Size = new Size(93, 93);
+            txt3_6.TabIndex = 0;
+            txt3_6.TextAlign = HorizontalAlignment.Center;
             // 
             // txt2_6
             // 
@@ -952,15 +952,15 @@
             txt1_6.TabIndex = 0;
             txt1_6.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox13
+            // txt3_5
             // 
-            textBox13.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox13.Location = new Point(96, 191);
-            textBox13.Margin = new Padding(1);
-            textBox13.Name = "textBox13";
-            textBox13.Size = new Size(93, 93);
-            textBox13.TabIndex = 0;
-            textBox13.TextAlign = HorizontalAlignment.Center;
+            txt3_5.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt3_5.Location = new Point(96, 191);
+            txt3_5.Margin = new Padding(1);
+            txt3_5.Name = "txt3_5";
+            txt3_5.Size = new Size(93, 93);
+            txt3_5.TabIndex = 0;
+            txt3_5.TextAlign = HorizontalAlignment.Center;
             // 
             // txt2_5
             // 
@@ -982,15 +982,15 @@
             txt1_5.TabIndex = 0;
             txt1_5.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox16
+            // txt3_4
             // 
-            textBox16.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox16.Location = new Point(1, 191);
-            textBox16.Margin = new Padding(1);
-            textBox16.Name = "textBox16";
-            textBox16.Size = new Size(93, 93);
-            textBox16.TabIndex = 0;
-            textBox16.TextAlign = HorizontalAlignment.Center;
+            txt3_4.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt3_4.Location = new Point(1, 191);
+            txt3_4.Margin = new Padding(1);
+            txt3_4.Name = "txt3_4";
+            txt3_4.Size = new Size(93, 93);
+            txt3_4.TabIndex = 0;
+            txt3_4.TextAlign = HorizontalAlignment.Center;
             // 
             // txt2_4
             // 
@@ -1015,10 +1015,10 @@
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(224, 224, 224);
-            panel2.Controls.Add(textBox9);
+            panel2.Controls.Add(txt3_3);
             panel2.Controls.Add(txt2_3);
             panel2.Controls.Add(txt1_3);
-            panel2.Controls.Add(textBox8);
+            panel2.Controls.Add(txt3_2);
             panel2.Controls.Add(txt2_2);
             panel2.Controls.Add(txt1_2);
             panel2.Controls.Add(txt3_1);
@@ -1030,15 +1030,15 @@
             panel2.Size = new Size(285, 285);
             panel2.TabIndex = 0;
             // 
-            // textBox9
+            // txt3_3
             // 
-            textBox9.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox9.Location = new Point(191, 191);
-            textBox9.Margin = new Padding(1);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(93, 93);
-            textBox9.TabIndex = 0;
-            textBox9.TextAlign = HorizontalAlignment.Center;
+            txt3_3.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt3_3.Location = new Point(191, 191);
+            txt3_3.Margin = new Padding(1);
+            txt3_3.Name = "txt3_3";
+            txt3_3.Size = new Size(93, 93);
+            txt3_3.TabIndex = 0;
+            txt3_3.TextAlign = HorizontalAlignment.Center;
             // 
             // txt2_3
             // 
@@ -1060,15 +1060,15 @@
             txt1_3.TabIndex = 0;
             txt1_3.TextAlign = HorizontalAlignment.Center;
             // 
-            // textBox8
+            // txt3_2
             // 
-            textBox8.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox8.Location = new Point(96, 191);
-            textBox8.Margin = new Padding(1);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(93, 93);
-            textBox8.TabIndex = 0;
-            textBox8.TextAlign = HorizontalAlignment.Center;
+            txt3_2.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
+            txt3_2.Location = new Point(96, 191);
+            txt3_2.Margin = new Padding(1);
+            txt3_2.Name = "txt3_2";
+            txt3_2.Size = new Size(93, 93);
+            txt3_2.TabIndex = 0;
+            txt3_2.TextAlign = HorizontalAlignment.Center;
             // 
             // txt2_2
             // 
@@ -1128,6 +1128,7 @@
             Controls.Add(panel1);
             Name = "form1";
             Text = "Form1";
+            Load += form1_Load;
             panel1.ResumeLayout(false);
             panel10.ResumeLayout(false);
             panel10.PerformLayout();
@@ -1154,10 +1155,10 @@
 
         private Panel panel1;
         private Panel panel2;
-        private TextBox textBox9;
+        private TextBox txt3_3;
         private TextBox txt2_3;
         private TextBox txt1_3;
-        private TextBox textBox8;
+        private TextBox txt3_2;
         private TextBox txt2_2;
         private TextBox txt1_2;
         private TextBox txt3_1;
@@ -1195,52 +1196,52 @@
         private TextBox txt7_1;
         private Panel panel7;
         private TextBox textBox46;
-        private TextBox textBox47;
-        private TextBox textBox48;
+        private TextBox txt5_9;
+        private TextBox txt4_9;
         private TextBox textBox49;
-        private TextBox textBox50;
-        private TextBox textBox51;
+        private TextBox txt5_8;
+        private TextBox txt4_8;
         private TextBox textBox52;
-        private TextBox textBox53;
-        private TextBox textBox54;
+        private TextBox txt5_7;
+        private TextBox txt4_7;
         private Panel panel6;
         private TextBox textBox37;
-        private TextBox textBox38;
-        private TextBox textBox39;
+        private TextBox txt5_6;
+        private TextBox txt4_6;
         private TextBox textBox40;
-        private TextBox textBox41;
-        private TextBox textBox42;
+        private TextBox txt5_5;
+        private TextBox txt4_5;
         private TextBox textBox43;
-        private TextBox textBox44;
-        private TextBox textBox45;
+        private TextBox txt5_4;
+        private TextBox txt4_4;
         private Panel panel5;
         private TextBox textBox28;
-        private TextBox textBox29;
-        private TextBox textBox30;
-        private TextBox textBox31;
-        private TextBox textBox32;
-        private TextBox textBox33;
+        private TextBox txt5_3;
+        private TextBox txt4_3;
+        private TextBox txt6_2;
+        private TextBox txt5_2;
+        private TextBox txt4_2;
         private TextBox txt6_1;
         private TextBox txt5_1;
         private TextBox txt4_1;
         private Panel panel4;
-        private TextBox textBox19;
+        private TextBox txt3_9;
         private TextBox txt2_9;
         private TextBox txt1_9;
-        private TextBox textBox22;
+        private TextBox txt3_8;
         private TextBox txt2_8;
         private TextBox txt1_8;
-        private TextBox textBox25;
+        private TextBox txt3_7;
         private TextBox txt2_7;
         private TextBox txt1_7;
         private Panel panel3;
-        private TextBox textBox10;
+        private TextBox txt3_6;
         private TextBox txt2_6;
         private TextBox txt1_6;
-        private TextBox textBox13;
+        private TextBox txt3_5;
         private TextBox txt2_5;
         private TextBox txt1_5;
-        private TextBox textBox16;
+        private TextBox txt3_4;
         private TextBox txt2_4;
         private TextBox txt1_4;
     }

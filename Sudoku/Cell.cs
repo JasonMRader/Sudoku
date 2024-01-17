@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Sudoku
 {
-    internal class Cell
+    public class Cell
     {
+        public TextBox txtBx {  get; set; }
+        public int Number = 0;
+        public Cell(TextBox txt)
+        {
+            txtBx = txt;
+        }
     }
 }
