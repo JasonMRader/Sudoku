@@ -10,8 +10,10 @@ namespace Sudoku
     {
         public Row[] Rows = new Row[9];
         public Column[] Columns = new Column[9];
-        public Game() 
+        private List<Control> controls = new List<Control>();
+        public Game(List<Control> controls) 
         {
+            this.controls = controls;
             CreateRows();
             CreateColumns();
             CreateCells();
@@ -38,13 +40,18 @@ namespace Sudoku
             {
                 for (int  j = 0; j < 9; j++)
                 {
- 
-                    Cell cell = new Cell();
-                    cell.Row = Rows[i];
-                    cell.Column = Columns[j];
-                    cell.Number = i;
-                    Rows[i].cells[j] = cell;
-                    Columns[j].cells[i] = cell;
+                    string textBoxName = $"txt{i + 1}_{j + 1}";
+                    TextBox textBox = controls.OfType<TextBox>().FirstOrDefault(tb => tb.Name == textBoxName);
+
+                    if (textBox != null)
+                    {
+                        Cell cell = new Cell(textBox);
+                        cell.Row = Rows[i];
+                        cell.Column = Columns[j];
+                        // Assuming you have an array or list in Row and Column to hold cells
+                        Rows[i].cells[j] = cell;
+                        Columns[j].cells[i] = cell;
+                    }
                 }
             }
         }
