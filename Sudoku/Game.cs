@@ -38,10 +38,13 @@ namespace Sudoku
             {
                 for (int  j = 0; j < 9; j++)
                 {
-
+ 
                     Cell cell = new Cell();
                     cell.Row = Rows[i];
                     cell.Column = Columns[j];
+                    cell.Number = i;
+                    Rows[i].cells[j] = cell;
+                    Columns[j].cells[i] = cell;
                 }
             }
         }
