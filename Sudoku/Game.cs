@@ -48,6 +48,7 @@ namespace Sudoku
                         Cell cell = new Cell(textBox);
                         cell.Row = Rows[i];
                         cell.Column = Columns[j];
+                        cell.Number = i+1;
                         // Assuming you have an array or list in Row and Column to hold cells
                         Rows[i].cells[j] = cell;
                         Columns[j].cells[i] = cell;
