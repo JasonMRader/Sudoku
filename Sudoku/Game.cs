@@ -10,13 +10,17 @@ namespace Sudoku
     {
         public Row[] Rows = new Row[9];
         public Column[] Columns = new Column[9];
+        public Box[] Boxes = new Box[9];
         private List<Control> controls = new List<Control>();
+        public Cell[,] cells = new Cell[9, 9];
         public Game(List<Control> controls) 
         {
             this.controls = controls;
             CreateRows();
             CreateColumns();
+            CreateBoxes();
             CreateCells();
+            GenerateSolution();
         }
         private void CreateRows()
         {
@@ -34,6 +38,14 @@ namespace Sudoku
                 Columns[i] = column;
             }
         }
+        private void CreateBoxes()
+        {
+            for(int i =0; i < 9; i++)
+            {
+                Box box = new Box();
+                Boxes[i] = box;
+            }
+        }
         private void CreateCells()
         {
             for (int i =0; i < 9; i++)
@@ -48,11 +60,26 @@ namespace Sudoku
                         Cell cell = new Cell(textBox);
                         cell.Row = Rows[i];
                         cell.Column = Columns[j];
-                        cell.Number = i+1;
+                        
                         // Assuming you have an array or list in Row and Column to hold cells
+                        int boxIndex = (i / 3) * 3 + (j / 3);
+                        cell.Box = Boxes[boxIndex];
+
                         Rows[i].cells[j] = cell;
                         Columns[j].cells[i] = cell;
+                        Boxes[boxIndex].cells[i % 3, j % 3] = cell; // 
                     }
+                }
+            }
+        }
+        private void GenerateSolution()
+        {
+            foreach(Row row in Rows)
+            {
+                foreach(Cell cell in row.cells)
+                {
+                    Random random = new Random();
+                    cell.Number = random.Next(1,10);
                 }
             }
         }
