@@ -25,6 +25,11 @@ namespace Sudoku
                 return true; // Number was successfully set
             }
         }
+        public bool IsNumberUnique(int number, Cell cell)
+        {
+            return !cells.Any(c => c != cell && c.Number == number);
+        }
+
 
     }
 }

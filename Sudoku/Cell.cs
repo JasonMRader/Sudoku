@@ -44,9 +44,16 @@ namespace Sudoku
             {
                 int num = random.Next(1, 10);
 
-                // Attempt to set the number on the Row
-                numberSet = Row.SetNumber(num, this);
+                // Check if the number is unique across row, column, and box
+                if (Row.IsNumberUnique(num, this) &&
+                    Column.IsNumberUnique(num, this) &&
+                    Box.IsNumberUnique(num, this))
+                {
+                    this.Number = num;
+                    numberSet = true;
+                }
             }
         }
+
     }
 }
