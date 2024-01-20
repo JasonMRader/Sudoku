@@ -10,16 +10,21 @@ namespace Sudoku
     {
         public int[] Numbers = new int[9];
         public Cell[] cells = new Cell[9];
-        public void SetNumber(int number, Cell cell)
+        public bool SetNumber(int number, Cell cell)
         {
             if (Numbers.Contains(number))
             {
-                return;
+                return false; // Number already exists in the row
             }
             else
             {
-
+                cell.Number = number; // Set the number for the cell
+                                      // Update the Numbers array or any other necessary state
+                                      // Assuming here that you keep track of numbers in the row
+                Numbers[Array.IndexOf(cells, cell)] = number;
+                return true; // Number was successfully set
             }
         }
+
     }
 }

@@ -35,5 +35,18 @@ namespace Sudoku
             int.TryParse(TxtBx.Text, out int number);
             // Additional logic if needed when text changes
         }
+        public void GenerateNumber()
+        {
+            Random random = new Random();
+            bool numberSet = false;
+
+            while (!numberSet)
+            {
+                int num = random.Next(1, 10);
+
+                // Attempt to set the number on the Row
+                numberSet = Row.SetNumber(num, this);
+            }
+        }
     }
 }
