@@ -8,18 +8,34 @@ namespace Sudoku
 {
     public class Cell
     {
-        public TextBox TxtBx {  get; set; }
+        public TextBox TxtBx { get; set; }
+        private int _number = 0;
+
         public int Number
         {
-            get
-            {
-                int.TryParse(TxtBx.Text, out int number);
-                return number;
-            }
+            get { return _number; }
             set
             {
-                TxtBx.Text = value.ToString();
+               
+                if (IsValidNumber(value))
+                {
+                    _number = value;
+                    TxtBx.Text = value.ToString();
+                }
+                else
+                {
+                   
+                    TxtBx.Text = "";
+                }
             }
+        }
+
+        private bool IsValidNumber(int number)
+        {
+            
+            return Row.IsNumberUnique(number, this) &&
+                   Column.IsNumberUnique(number, this) &&
+                   Box.IsNumberUnique(number, this);
         }
         public Row Row { get; set; }
         public Column Column { get; set; }
