@@ -49,7 +49,18 @@ namespace Sudoku
         private void TxtBx_TextChanged(object sender, EventArgs e)
         {
             int.TryParse(TxtBx.Text, out int number);
-            // Additional logic if needed when text changes
+            if (!IsValidNumber(number))
+            {
+                TxtBx.BackColor = Color.Red;
+            }
+            else
+            {
+                TxtBx.BackColor = Color.White;
+            }
+            if(TxtBx.Text == "")
+            {
+                TxtBx.BackColor = Color.White;
+            }
         }
         public void GetNumber()
         {
