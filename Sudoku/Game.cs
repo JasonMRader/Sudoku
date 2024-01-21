@@ -78,8 +78,8 @@ namespace Sudoku
             {
                 foreach(Cell cell in row.cells)
                 {
-                   cell.GenerateNumber();
-                   
+                    //cell.GenerateNumber();
+                    cell.GetNumber();
                     
 
                 }

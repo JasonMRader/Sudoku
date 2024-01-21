@@ -35,6 +35,16 @@ namespace Sudoku
             int.TryParse(TxtBx.Text, out int number);
             // Additional logic if needed when text changes
         }
+        public void GetNumber()
+        {
+            List<int> numbers = Row.Numbers.ToList();
+            numbers.Concat(Box.Numbers.ToList());
+            numbers.Concat(Column.Numbers.ToList());
+            numbers = numbers.Distinct().ToList();
+            NumberPicker numberPicker = new NumberPicker(numbers);
+            this.Number = numberPicker.PickNumber();
+
+        }
         public void GenerateNumber()
         {
             Random random = new Random();
