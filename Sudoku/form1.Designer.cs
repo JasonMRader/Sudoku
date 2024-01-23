@@ -1157,6 +1157,7 @@
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             Load += form1_Load;
             MouseDown += Form1_MouseDown;
