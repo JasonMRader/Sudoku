@@ -1125,6 +1125,7 @@
             // btnClose
             // 
             btnClose.BackColor = Color.Red;
+            btnClose.FlatAppearance.BorderSize = 0;
             btnClose.FlatStyle = FlatStyle.Flat;
             btnClose.Location = new Point(846, 12);
             btnClose.Name = "btnClose";
@@ -1136,6 +1137,8 @@
             // 
             // btnNewGame
             // 
+            btnNewGame.FlatAppearance.BorderSize = 0;
+            btnNewGame.FlatStyle = FlatStyle.Flat;
             btnNewGame.Location = new Point(16, 12);
             btnNewGame.Name = "btnNewGame";
             btnNewGame.Size = new Size(75, 23);
@@ -1156,6 +1159,9 @@
             Name = "form1";
             Text = "Form1";
             Load += form1_Load;
+            MouseDown += Form1_MouseDown;
+            MouseMove += Form1_MouseMove;
+            MouseUp += Form1_MouseUp;
             panel1.ResumeLayout(false);
             panel10.ResumeLayout(false);
             panel10.PerformLayout();

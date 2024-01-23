@@ -3,6 +3,10 @@ namespace Sudoku
     public partial class form1 : Form
     {
         Game game;
+
+        private bool isDraggingForm = false;
+        private System.Drawing.Point lastLocation;
+
         public form1()
         {
             InitializeComponent();
@@ -30,7 +34,27 @@ namespace Sudoku
 
 
         }
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        {
+            isDraggingForm = true;
+            lastLocation = e.Location;
+        }
 
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (isDraggingForm)
+            {
+                this.Location = new System.Drawing.Point(
+                    (this.Location.X - lastLocation.X) + e.X,
+                    (this.Location.Y - lastLocation.Y) + e.Y);
+
+                this.Update();
+            }
+        }
+        private void Form1_MouseUp(object sender, MouseEventArgs e)
+        {
+            isDraggingForm = false;
+        }
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
