@@ -119,6 +119,7 @@
             txt3_1 = new TextBox();
             txt2_1 = new TextBox();
             txt1_1 = new TextBox();
+            btnClose = new Button();
             panel1.SuspendLayout();
             panel10.SuspendLayout();
             panel9.SuspendLayout();
@@ -1120,11 +1121,24 @@
             txt1_1.TabIndex = 0;
             txt1_1.TextAlign = HorizontalAlignment.Center;
             // 
+            // btnClose
+            // 
+            btnClose.BackColor = Color.Red;
+            btnClose.FlatStyle = FlatStyle.Flat;
+            btnClose.Location = new Point(846, 12);
+            btnClose.Name = "btnClose";
+            btnClose.Size = new Size(29, 23);
+            btnClose.TabIndex = 1;
+            btnClose.Text = "X";
+            btnClose.UseVisualStyleBackColor = false;
+            btnClose.Click += btnClose_Click;
+            // 
             // form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(891, 945);
+            Controls.Add(btnClose);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "form1";
@@ -1245,5 +1259,6 @@
         private TextBox txt3_4;
         private TextBox txt2_4;
         private TextBox txt1_4;
+        private Button btnClose;
     }
 }

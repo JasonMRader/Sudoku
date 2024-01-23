@@ -26,7 +26,7 @@ namespace Sudoku
         {
             //Cell cell = new Cell(txt1_1);
             //cell.TxtBx.Text = cell.Number.ToString();
-            
+
 
 
         }
