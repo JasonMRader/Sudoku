@@ -30,5 +30,16 @@ namespace Sudoku
 
 
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnNewGame_Click(object sender, EventArgs e)
+        {
+            List<Control> allControls = GetAllControls(this);
+            game = new Game(allControls);
+        }
     }
 }

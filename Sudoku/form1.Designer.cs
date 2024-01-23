@@ -120,6 +120,7 @@
             txt2_1 = new TextBox();
             txt1_1 = new TextBox();
             btnClose = new Button();
+            btnNewGame = new Button();
             panel1.SuspendLayout();
             panel10.SuspendLayout();
             panel9.SuspendLayout();
@@ -1133,11 +1134,22 @@
             btnClose.UseVisualStyleBackColor = false;
             btnClose.Click += btnClose_Click;
             // 
+            // btnNewGame
+            // 
+            btnNewGame.Location = new Point(16, 12);
+            btnNewGame.Name = "btnNewGame";
+            btnNewGame.Size = new Size(75, 23);
+            btnNewGame.TabIndex = 2;
+            btnNewGame.Text = "New Game";
+            btnNewGame.UseVisualStyleBackColor = true;
+            btnNewGame.Click += btnNewGame_Click;
+            // 
             // form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(891, 945);
+            Controls.Add(btnNewGame);
             Controls.Add(btnClose);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
@@ -1260,5 +1272,6 @@
         private TextBox txt2_4;
         private TextBox txt1_4;
         private Button btnClose;
+        private Button btnNewGame;
     }
 }
