@@ -13,6 +13,7 @@ namespace Sudoku
         public Box[] Boxes = new Box[9];
         private List<Control> controls = new List<Control>();
         public Cell[,] cells = new Cell[9, 9];
+        public Cell SelectedCell { get; set; }
         public Game(List<Control> controls) 
         {
             this.controls = controls;
