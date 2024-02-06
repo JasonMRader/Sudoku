@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Sudoku
 {
@@ -69,6 +70,7 @@ namespace Sudoku
                         Rows[i].cells[j] = cell;
                         Columns[j].cells[i] = cell;
                         Boxes[boxIndex].cells[i % 3, j % 3] = cell; // 
+                        cells[i,j] = cell;
                     }
                 }
             }
@@ -86,5 +88,30 @@ namespace Sudoku
                 }
             }
         }
+//        function solveSudoku(board, row, col):
+//    if row == N: // N is board size, e.g., 9 for standard Sudoku
+//        return true
+
+//    nextRow, nextCol = getNextCell(row, col)
+
+//    if board[row][col] != 0: // Skip pre-filled cells
+//        return solveSudoku(board, nextRow, nextCol)
+
+//    for num in 1 to N:
+//        if isValid(board, row, col, num) :
+//            board[row][col] = num
+//            if solveSudoku(board, nextRow, nextCol) :
+//                return true
+//            board[row][col] = 0 // Backtrack
+
+//    return false
+
+//function isValid(board, row, col, num):
+//    // Check if num is not in current row, column and 3x3 box
+//    // Return true if valid, false otherwise
+
+//function getNextCell(row, col):
+//    // Return the next cell in the Sudoku grid
+
     }
 }
