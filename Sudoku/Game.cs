@@ -83,6 +83,10 @@ namespace Sudoku
                 {
                     //cell.GenerateNumber();
                     cell.GetNumber();
+                    if(cell.Number == null)
+                    {
+
+                    }
                     
 
                 }
